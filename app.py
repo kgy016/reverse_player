@@ -25,7 +25,7 @@ if uploaded_file:
         with st.spinner("영상을 거꾸로 돌리는 중... 잠시만 기다려주세요."):
             try:
                 # 3. 영상 처리 로직
-                clip = VideoFileClip(video_path)
+                clip = VideoFileClip(video_path, audio=True)
                 
                 # 역재생 적용
                 reversed_clip = clip.fx(vfx.time_mirror)
