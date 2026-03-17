@@ -6,7 +6,7 @@ import numpy as np
 
 # 1. 페이지 설정
 st.set_page_config(page_title="거꾸로 영상 제작소", page_icon="⏪")
-st.title("⏪ 초간단 영상 역재생기")
+st.title("⏪ 초간단 영상 역재생기, 가벼운 영상용입니다.")
 st.info("안정적인 프레임 역재생 버전입니다. (소리 미포함)")
 
 uploaded_file = st.file_uploader("역재생할 영상을 업로드하세요", type=["mp4", "mov", "avi"])
