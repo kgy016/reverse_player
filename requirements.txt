@@ -1,5 +1,4 @@
 streamlit
-moviepy==1.0.3
-setuptools  # <--- 이 녀석이 범인입니다! 추가해 주세요.
+moviepy
 imageio-ffmpeg
-decorator==4.4.2
+setuptools
